@@ -1,0 +1,57 @@
+<!-- Contact form page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact the creator of The Bubble World to share your thoughts, ideas or concerns. We value dialogue and awareness." />
+  <meta name="keywords" content="contact, message, email, bubble world, communication, feedback" />
+  <meta name="author" content="The Bubble World" />
+  <title>Contact | The Bubble World</title>
+  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/navbar.css" />
+</head>
+<body>
+
+    <nav id="navbar" class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">The Bubble World</div>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            &#9776;
+          </button>
+          <ul class="navbar-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="manifesto.html">Manifesto</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We welcome your thoughts, reflections and inquiries.</p>
+    </header>
+
+    <main class="contact-container">
+        <form action="https://formspree.io/f/xnndjebj" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="_replyto" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Bubble World | Speak freely, think deeply.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

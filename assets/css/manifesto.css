@@ -1,0 +1,94 @@
+/* manifesto.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header del manifiesto */
+  .manifesto-header {
+    background: linear-gradient(to right, #111, #333);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .manifesto-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .manifesto-header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* Contenido principal */
+  .manifesto-content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .manifesto-content section {
+    margin-bottom: 40px;
+  }
+  
+  .manifesto-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #222;
+    border-left: 5px solid #555;
+    padding-left: 15px;
+  }
+  
+  .manifesto-content p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  /* Última sección más destacada */
+  .final-call {
+    background-color: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .manifesto-header h1 {
+      font-size: 2rem;
+    }
+  
+    .manifesto-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .manifesto-content p {
+      font-size: 0.95rem;
+    }
+  }
+  
